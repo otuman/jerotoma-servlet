@@ -1,0 +1,80 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+
+
+// import Bootstrap functions/variables
+@import "node_modules/bootstrap/scss/functions";
+
+
+//@import "bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.row-content-wrapper{
+	margin-top:30px;
+}
+
+ul.list-group-login{
+	margin-left:20px;
+}
+
+ul>li.list-item{
+	font-size:15px;
+	padding:3px;
+}
+
+ul.left-nav-menu>li.nav-item{
+	border-bottom:1px solid #FFFFFF;
+	
+}
+ul.left-nav-menu>li.nav-item:hover {
+    background-color: rgba(0,123,255,.6) !important
+}
+
+ul>li.nav-item{
+	background-color: #007bff !important;		
+}
+ul>li.nav-item a{
+	color: rgba(255,255,255,.8);
+}
+ul>li.nav-item a:hover{
+	color: rgba(255,255,255,1) !important;;
+}
+
+ul>li>ul>li{
+	margin-left: -40px;
+	list-style: none;
+}
+ul>li>ul>li a{
+	margin-left: 20px;
+	list-style: none;
+}
+.dropdown-menu{
+	background-color:#cec5c5 !important;
+}
+.dropdown-menu a:hover{
+	background-color:#a29d9e !important;
+}
+.footer.upper{
+	 margin-top:2rem;
+	 background-color:#007bff;
+}
+.footer.lower{
+	 background-color:#ee6e73;
+}
+
+.footer.upper,.footer.lower{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center; 
+  color:#FFF;
+}
+
+.footer .row .col,.footer .row .col p{
+ color:#FFF;	
+	
+}
