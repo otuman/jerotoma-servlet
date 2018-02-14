@@ -138,7 +138,7 @@ public class UserDaoImpl implements UserDao {
 	    	  preparedStatement.setDate(5, user.getCreatedOn());
 	    	  preparedStatement.setDate(6, user.getUpdatedOn());		      
 		     
-	    	  // execute the preparedstatement
+	    	  //execute the prepared statement
 	    	  preparedStatement.executeUpdate();
 	    	  ResultSet rs = preparedStatement.getGeneratedKeys();
 	    	  
